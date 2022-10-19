@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="admin.css">
+	
+	<title>DARIOM-10</title>
+</head>
+<body>
+	
+		<!-- SIDEBAR -->
+		<section id="sidebar">
+      <a href="admin_index.html" class="brand"><img src='img/logoDAR.jpg' class='logo'></i>&nbsp;&nbsp;DAR-10</a>
+      <ul class="side-menu">
+        <li><a href="admin_index.html" class="active"><i class='bx bx-stats icon'></i> Dashboard</a></li>
+        <li><a href="gallery.html" class="active"><i class='bx bx-archive icon'></i> Gallery</a></li>
+        <li><a href="admin_profile.html" class="active"><i class='bx bx-user-circle icon'></i> Profile</a></li>
+        <li class="divider" data-text="Manage">Manage</li>
+        <li>
+          <li><a href="calendar.html" class="active"><i class='bx bx-calendar icon'></i> Calendar</a></li>
+          <li><a href="admin_employee.html" class="active"><i class='bx bx-group icon'></i> Employee</a></li>
+          <li><a href="admin_leaverequest.html" class="active"><i class='bx bx-list-ul icon'></i></i> Leave Request</a></li>
+          <li><a href="admin_leavecard.html" class="active"><i class='bx bx-archive icon'></i> Leave Card</a></li>
+          <li><a href="gallery.html" class="active"><i class='bx bx-archive icon'></i> Gallery</a></li>
+        </li>
+        <li class="divider" data-text="Reports">Reports</li>
+        <li><a href="admin_emptimesheet.html" class="active"><i class='bx bx-spreadsheet icon'></i> Employee Timesheets</a></li>
+        <li><a href="admin_empleavehistory.html" class="active"><i class='bx bx-history icon'></i> Employee Leave History</a></li>
+        
+  
+      </ul>
+      <div class="ads">
+        <div class="wrapper">
+          <a href="#" class="btn-upgrade" onclick="myFunction()">Toggle dark mode</a>
+        </div>
+      </div>
+    </section>
+    <!-- SIDEBAR -->
+  
+    <!-- NAVBAR -->
+    <section id="content">
+      <!-- NAVBAR -->
+      <nav>
+        
+        <form action="#">
+          <div class="form-group">
+            <input type="text" placeholder="Search...">
+            
+          </div>
+        </form>
+        <a href="#" class="nav-link">
+          <i class='bx bxs-bell icon' ></i>
+          <span class="badge"></span>
+        </a>
+        <span class="divider"></span>
+        <div class="profile">
+          <img src="./profile.png"  alt="">
+          <ul class="profile-link">
+            <li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
+            <li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<audio hidden autoplay loop>
+				<source src="back.mp3" type="audio/mpeg">
+			  </audio>
+
+				
+
+				<div class="gallery" method="post" action="">
+					<img src="ivy.jpeg" class="other" style="max-width:100%;cursor:pointer"
+					onclick="document.getElementById('id01').style.display='block'" class="modal-hover-opacity">
+                    
+					<img src="jundel2.jpg" class="other"  style="max-width:100%;cursor:pointer" 
+					onclick="document.getElementById('id02').style.display='block'" class="modal-hover-opacity">
+					<img src="jacky.jpg"  class="other"  style="max-width:100%;cursor:pointer" 
+					onclick="document.getElementById('id03').style.display='block'" class="modal-hover-opacity">
+					<img src="vhenn2.jpg" class="other" style="max-width:100%;cursor:pointer" 
+					onclick="document.getElementById('id04').style.display='block'" class="modal-hover-opacity">
+				  </div>
+				
+				
+
+
+
+<center><table>
+<tr>
+  <th>
+<div class="w3-container">
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+<section class="content">
+   
+  <div class="student-profile py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent text-center">
+          <img src="ivy.jpeg" class="pic"alt="staff2" style="width:100%">
+            <h1>Ivy Mae Bagongon</h1>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>PERSONAL INFORMATION</h3>
+          </div>
+          <div class="card-body pt-0">
+            <table class="table table-bordered">
+              <tr>
+                <th width="30%">Age:</th>
+                <td width="2%">:</td>
+                <td>21</td>
+              </tr>
+              <tr>
+                <th width="30%">Sex:	</th>
+                <td width="2%">:</td>
+                <td>Female</td>
+              </tr>
+              <tr>
+                <th width="30%">Birthday:</th>
+                <td width="2%">:</td>
+                <td>May 6, 2001</td>
+              </tr>
+              <tr>
+                <th width="30%">Contact #:</th>
+                <td width="2%">:</td>
+                <td>0943594197</td>
+              </tr>
+              <tr>
+                <th width="30%">Address:</th>
+                <td width="2%">:</td>
+                <td>Lagonglong</td>
+              </tr>
+              <tr>
+                <th width="30%">Year:</th>
+                <td width="2%">:</td>
+                <td>3rd Year</td>
+              </tr>
+              <tr>
+                <th width="30%">Course:</th>
+                <td width="2%">:</td>
+                <td>Bachelor of Science in Information Technology</td>
+              </tr>
+              <tr>
+                <th width="30%">About:</th>
+                <td width="2%">:</td>
+                <td>I am  Ivy Mae O. Bagongon eldest among 4  siblings. Currently taking BSIT in PHINMA- Cagayan de Oro College. My hobbies are watching movies, surfing in the internet and sometimes vlogging. I am happy to have a supportive family and friends whom I can feel that I belong too.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      <br>
+        
+
+          <div style="height: 26px"></div>
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+          <div class="container">
+        
+    </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  </th>
+
+  <th>
+<div class="w3-container">
+
+
+  <div id="id02" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+<section class="content">
+   
+    <div class="student-profile py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent text-center">
+          <img src="jundel2.jpg" class="pic" alt="staff2" style="width:100%">
+            <h1>Jundel C. Evangelista</h1>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>PERSONAL INFORMATION</h3>
+          </div>
+          <div class="card-body pt-0">
+            <table class="table table-bordered">
+              <tr>
+                <th width="30%">Age:</th>
+                <td width="2%">:</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <th width="30%">Sex:	</th>
+                <td width="2%">:</td>
+                <td>MALE</td>
+              </tr>
+              <tr>
+                <th width="30%">Birthday:</th>
+                <td width="2%">:</td>
+                <td>October 20, 2001</td>
+              </tr>
+              <tr>
+                <th width="30%">Contact #:</th>
+                <td width="2%">:</td>
+                <td>09650581763</td>
+              </tr>
+              <tr>
+                <th width="30%">Address:</th>
+                <td width="2%">:</td>
+                <td>Oro Zena Balulang CDOC</td>
+              </tr>
+              <tr>
+                <th width="30%">Year:</th>
+                <td width="2%">:</td>
+                <td>3rd Year</td>
+              </tr>
+              <tr>
+                <th width="30%">Course:</th>
+                <td width="2%">:</td>
+                <td>Bachelor of Science in Information Technology</td>
+              </tr>
+              <tr>
+                <th width="30%">About:</th>
+                <td width="2%">:</td>
+                <td>I'm a responsible, shy, and introvert person. I enjoy riding a motorcycle at night and playing video games.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      <br>
+        
+
+          <div style="height: 26px"></div>
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+          <div class="container">
+        
+    </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  </th>
+
+  <th>
+<div class="w3-container">
+
+  <div id="id03" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+<section class="content">
+   
+   <div class="student-profile py-4">
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-4">
+       <div class="card shadow-sm">
+         <div class="card-header bg-transparent text-center">
+         <img src="jacky.jpg" class="pic" alt="staff2" style="width:100%">
+           <h1>Jacky Joshua L. Lim</h1>
+         </div>
+         
+       </div>
+     </div>
+     <div class="col-lg-8">
+       <div class="card shadow-sm">
+         <div class="card-header bg-transparent border-0">
+           <h3 class="mb-0"><i class="far fa-clone pr-1"></i>PERSONAL INFORMATION</h3>
+         </div>
+         <div class="card-body pt-0">
+           <table class="table table-bordered">
+             <tr>
+               <th width="30%">Age:</th>
+               <td width="2%">:</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <th width="30%">Sex:	</th>
+               <td width="2%">:</td>
+               <td>Male</td>
+             </tr>
+             <tr>
+               <th width="30%">Birthday:</th>
+               <td width="2%">:</td>
+               <td>May 5, 2001</td>
+             </tr>
+             <tr>
+               <th width="30%">Contact #:</th>
+               <td width="2%">:</td>
+               <td>09169024961</td>
+             </tr>
+             <tr>
+               <th width="30%">Address:</th>
+               <td width="2%">:</td>
+               <td>#163, Zone 2, Canitoan Cdo</td>
+             </tr>
+             <tr>
+               <th width="30%">Year:</th>
+               <td width="2%">:</td>
+               <td>3rd Year</td>
+             </tr>
+             <tr>
+               <th width="30%">Course:</th>
+               <td width="2%">:</td>
+               <td>Bachelor of Science in Information Technology</td>
+             </tr>
+             <tr>
+               <th width="30%">About:</th>
+               <td width="2%">:</td>
+               <td>I'm a competitive person, and extrovert person because I enjoy being around other people and tend to focus on the outside world. I'm also a well-mannered and well-behaved person. My hobby is watching anime and playing video games.</td>
+             </tr>
+           </table>
+         </div>
+       </div>
+     <br>
+       
+
+         <div style="height: 26px"></div>
+       <div class="card shadow-sm">
+         <div class="card-header bg-transparent border-0">
+         <div class="container">
+       
+
+   </div>
+         </div>
+         
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  </th>
+
+  <th>
+<div class="w3-container">
+
+  <div id="id04" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+<section class="content">
+   
+   <div class="student-profile py-4">
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-4">
+       <div class="card shadow-sm">
+         <div class="card-header bg-transparent text-center">
+         <img src="vhenn2.jpg" class="pic" alt="staff2" style="width:100%" height="300">
+           <h1>Vhenn T. Pabualan</h1>
+         </div>
+         
+       </div>
+     </div>
+     <div class="col-lg-8">
+       <div class="card shadow-sm">
+         <div class="card-header bg-transparent border-0">
+           <h3 class="mb-0"><i class="far fa-clone pr-1"></i>PERSONAL INFORMATION</h3>
+         </div>
+         <div class="card-body pt-0">
+           <table class="table table-bordered">
+             <tr>
+               <th width="30%">Age:</th>
+               <td width="2%">:</td>
+               <td>21</td>
+             </tr>
+             <tr>
+               <th width="30%">Sex:	</th>
+               <td width="2%">:</td>
+               <td>Male</td>
+             </tr>
+             <tr>
+               <th width="30%">Birthday:</th>
+               <td width="2%">:</td>
+               <td>September 24, 2001</td>
+             </tr>
+             <tr>
+               <th width="30%">Contact #:</th>
+               <td width="2%">:</td>
+               <td>09087194235</td>
+             </tr>
+             <tr>
+               <th width="30%">Address:</th>
+               <td width="2%">:</td>
+               <td>Zone 7, Target Range Village, Patag, CDo</td>
+             </tr>
+             <tr>
+               <th width="30%">Year:</th>
+               <td width="2%">:</td>
+               <td>3rd Year</td>
+             </tr>
+             <tr>
+               <th width="30%">Course:</th>
+               <td width="2%">:</td>
+               <td>Bachelor of Science in Information Technology</td>
+             </tr>
+             <tr>
+               <th width="30%">About:</th>
+               <td width="2%">:</td>
+               <td>I'm a quiet, optimistic introvert. I am self-sufficient, well-mannered, and most of all, an easy-going type person.</td>
+             </tr>
+           </table>
+         </div>
+       </div>
+     <br>
+       
+
+         <div style="height: 26px"></div>
+       <div class="card shadow-sm">
+         <div class="card-header bg-transparent border-0">
+         <div class="container">
+       
+
+   </div>
+         </div>
+         
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  </th>
+</tr>
+</table></center>
+
+
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="script.js"></script>
+</body>
+</html>
